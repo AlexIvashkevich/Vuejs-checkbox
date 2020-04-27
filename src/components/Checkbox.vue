@@ -21,6 +21,7 @@
           :name="name"
           :disabled="disabled"
           :checked="checked"
+          @change="changeValue"
       />
     </div>
     <label :for="name">
