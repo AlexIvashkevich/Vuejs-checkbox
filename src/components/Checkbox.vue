@@ -8,7 +8,7 @@
           @keyup.space="changeValue"
       >
         <font-awesome-icon
-            size="2x"
+            size="1x"
             :style="{ color: disabled ? 'gray' : 'blue' }"
             :icon="checked ? 'check-square' : 'square'"
         />
